@@ -1,0 +1,142 @@
+.Join {
+    display: flex;
+    padding: 1rem 4rem;
+    gap: 10rem;
+    /* flex-wrap: wrap; */
+}
+
+.left-j {
+    color: var(--green);
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    gap: 2rem;
+}
+
+.left-j > hr {
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+    margin: -10px 0;
+}
+
+.left-j > div {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.right-j {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.email-container {
+    display: flex;
+    gap: 3rem;
+    background-color: var(--darkGray);
+    padding: 1rem 2rem;
+}
+
+.email-container > input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--lightgray);
+}
+
+::placeholder {
+    color: var(--lightgray);
+}
+
+.btn-j {
+    background-color: var(--orange);
+    color: #fff;
+}
+
+.btn-j:hover {
+    color: var(--lightgray);
+}
+
+/* Media Queries for Join.css */
+@media screen and (max-width: 1170px){
+    .Join{
+        padding: 1rem 3rem;
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .Join {
+        padding: 1rem 5rem;
+        gap: 5rem;
+        flex-direction: column;
+    }
+
+    .left-j {
+        font-size: 2.4rem;
+    }
+
+    .left-j > hr {
+        width: 9rem;
+    }
+
+    .email-container {
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Join {
+        flex-direction: column;
+        padding: 1rem 2rem;
+        gap: 4rem;
+    }
+
+    .left-j {
+        font-size: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .left-j > div {
+        gap: 4rem;
+    }
+
+    .email-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .email-container > input {
+        width: 100%;
+    }
+
+    .btn-j {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Join {
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    .left-j {
+        font-size: 1.6rem;
+    }
+
+    .left-j > hr {
+        width: 7rem;
+    }
+
+    .left-j > div {
+        gap: 2rem;
+    }
+}

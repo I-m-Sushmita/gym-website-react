@@ -1,0 +1,36 @@
+.footer-container{
+    position: relative;
+    background: var(--appcolor);
+}
+.footer-container>hr{
+    border: 1px solid var(--lightgray);
+}
+.logo-f>img{
+    height:9rem;
+    width: 9rem;
+}
+.footer{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+}
+.socials{
+    display: flex;
+    gap: 4rem;
+}
+.socials>i{
+    font-size: 2.5rem;
+    color:#fff;
+    cursor: pointer;
+}
+.socials>i:hover{
+    color:var(--orange);
+}
+.copy-text{
+    font-size: 1.2rem;
+    color: var(--lightgray);
+}

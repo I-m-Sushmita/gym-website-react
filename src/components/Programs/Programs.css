@@ -1,0 +1,64 @@
+.programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.programs-header{
+    display: flex;
+    font-weight: bold;
+    gap: 5rem;
+    font-size: 3rem;
+    color: var(--green);
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.programs-categories{
+    display: flex;
+    gap: 1rem;
+    animation: slideInTop 1s ease-in-out;
+}
+@keyframes slideInTop {
+    from { transform: translateY(-100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+.category>i{
+    font-size: 1.8rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkGray);
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+.category>:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.category>:nth-child(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.category:hover{
+    background: var(--plancard);
+    cursor: pointer;
+}
+
+/* Media Queries for Programs.css */
+@media screen and (max-width: 768px) {
+    .programs-header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: x-large;
+        margin-top: 14rem;
+        gap:1rem
+    }
+    .programs-categories{
+        flex-direction: column;
+    }
+}

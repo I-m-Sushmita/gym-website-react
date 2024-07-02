@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/gym-website-react/static/css/main.88783c08.css",
+    "main.js": "/gym-website-react/static/js/main.99b67804.js",
+    "static/js/453.ed3810f9.chunk.js": "/gym-website-react/static/js/453.ed3810f9.chunk.js",
+    "static/media/reimg1.jpg": "/gym-website-react/static/media/reimg1.a700fc0a04abbf6e02a8.jpg",
+    "static/media/reimg2.jpg": "/gym-website-react/static/media/reimg2.f53a267df6433abce835.jpg",
+    "static/media/img1.jpg": "/gym-website-react/static/media/img1.204b9f5c7238e46dbbcf.jpg",
+    "static/media/reimg5.jpg": "/gym-website-react/static/media/reimg5.c3a7ceb8d421eacb8bf4.jpg",
+    "static/media/reimg3.jpg": "/gym-website-react/static/media/reimg3.c00cc1954991656598bd.jpg",
+    "static/media/on.webp": "/gym-website-react/static/media/on.9b27c02f6be0315ff21b.webp",
+    "static/media/avatar.png": "/gym-website-react/static/media/avatar.0f4717cc03e050a82c00.png",
+    "static/media/nike.jpg": "/gym-website-react/static/media/nike.805460162fd0082d1610.jpg",
+    "index.html": "/gym-website-react/index.html",
+    "main.88783c08.css.map": "/gym-website-react/static/css/main.88783c08.css.map",
+    "main.99b67804.js.map": "/gym-website-react/static/js/main.99b67804.js.map",
+    "453.ed3810f9.chunk.js.map": "/gym-website-react/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88783c08.css",
+    "static/js/main.99b67804.js"
+  ]
+}

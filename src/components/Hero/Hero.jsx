@@ -1,5 +1,7 @@
 import React from 'react'
 import './Hero.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHeart } from '@awesome.me/kit-KIT_CODE/icons/classic/solid'
 import Header from './Header/Header'
 import img1 from '../../image/img1.jpg'
 const Hero = () => {
@@ -38,7 +40,7 @@ const Hero = () => {
       <div className="right-h">
         <button className="btn">Join Now</button>
         <div className="heart-rate">
-          <i class="fa-solid fa-heart"></i>
+        <FontAwesomeIcon icon={faHeart} />
           <span>Heart rate</span>
           <span> 116 bpm</span>
         </div>
@@ -47,5 +49,4 @@ const Hero = () => {
     </div>
   )
 }
-
 export default Hero

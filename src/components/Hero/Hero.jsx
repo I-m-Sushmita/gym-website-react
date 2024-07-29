@@ -40,7 +40,7 @@ const Hero = () => {
       <div className="right-h">
         <button className="btn">Join Now</button>
         <div className="heart-rate">
-        <FontAwesomeIcon icon={faHeart} />
+        <FontAwesomeIcon icon={faHeart}  className="icon"/>
           <span>Heart rate</span>
           <span> 116 bpm</span>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHeart } from '@awesome.me/kit-KIT_CODE/icons/classic/solid'
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import Header from './Header/Header'
 import img1 from '../../image/img1.jpg'
 const Hero = () => {
